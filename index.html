@@ -378,10 +378,14 @@
       </main>
       <footer>
         <h2 class="title-small">CONTACT</h2>
-        <form action="#">
+        <form name="contact" method="POST" data-netlify="true">
           <i class="fa-solid fa-envelope prefix"></i>
-          <input type="text" placeholder="Please Enter your Email" />
-          <button>
+          <input
+            type="text"
+            name="email"
+            placeholder="Please Enter your Email"
+          />
+          <button type="submit">
             <i class="fa-solid fa-paper-plane postfix"></i>
           </button>
         </form>
